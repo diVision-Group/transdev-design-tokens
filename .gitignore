@@ -1,0 +1,7 @@
+node_modules
+.vscode
+.github
+.git
+*.vsix
+package-lock.json
+yarn.lock

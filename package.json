@@ -1,0 +1,41 @@
+{
+  "name": "@transdevoficial/design-tokens",
+  "version": "1.0.3",
+  "description": "Lib for design tokens by TransDev",
+  "main": "index.js",
+  "author": {
+    "email": "diana_martine@outlook.com",
+    "name": "Diana Martine",
+    "url": "https://github.com/dianamartine"
+  },
+  "maintainers": [
+    {
+      "email": "diana_martine@outlook.com",
+      "name": "Diana Martine",
+      "url": "https://github.com/dianamartine"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "tokens",
+    "transdev"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TransDevOficial/transdev-design-tokens"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node src/index.js",
+    "build:dev": "rm -rf dist && node src/index.js"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
